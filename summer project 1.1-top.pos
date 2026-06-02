@@ -1,0 +1,17 @@
+### Footprint positions - created on 2026-06-03T02:01:29+0300 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                                           PosX       PosY       Rot  Side
+C1        0.1u                  C_0603_1608Metric                                             137.5200   -84.5450   90.0000  top
+C2        0.1u                  C_0603_1608Metric                                             150.4950   -85.6450   90.0000  top
+J1        Conn_01x02_Socket     AMASS_XT30U-F_1x02_P5.0mm_Vertical                            122.2200   -77.4200  -90.0000  top
+J2        Conn_01x02_Socket     AMASS_XT30U-F_1x02_P5.0mm_Vertical                            137.5200   -91.9200    0.0000  top
+J3        Screw_Terminal_01x02  TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal   160.0200   -79.5200  -90.0000  top
+Q1        NMOS                  TO-252-3_TabPin2                                              131.2050   -77.1950   90.0000  top
+Q2        NMOS                  TO-252-3_TabPin2                                              144.5150   -77.2750   90.0000  top
+R1        100                   R_0603_1608Metric                                             137.5200   -80.2200   90.0000  top
+R2        100                   R_0603_1608Metric                                             150.2950   -81.6450   90.0000  top
+U1        LM5050-1_mod2         TSOT-23-6                                                     131.1975   -86.4575   90.0000  top
+U2        LM5050-1_mod2         TSOT-23-6                                                     144.3950   -85.9450   90.0000  top
+## End

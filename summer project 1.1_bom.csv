@@ -1,0 +1,7 @@
+Id,Designator,Footprint,Quantity,Designation,Part Number
+1,J3,TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal,1,Screw_Terminal_01x02,
+2,"U1,U2",TSOT-23-6,2,LM5050-1_mod2,LM5050-1-Q1
+3,"Q1,Q2",TO-252-3_TabPin2,2,NMOS,SUM40N10-30
+4,"J2,J1",AMASS_XT30U-F_1x02_P5.0mm_Vertical,2,Conn_01x02_Socket,
+5,"R1,R2",R_0603_1608Metric,2,100,
+6,"C1,C2",C_0603_1608Metric,2,0.1u,

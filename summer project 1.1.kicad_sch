@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "19e44473-05a8-487a-9fcb-12427ac5e96b")
 	(paper "A4")
+	(title_block
+		(title "LM5050 REDUNDANCY POWER CIRCUIT-AUV")
+		(date "03/06/2026")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names

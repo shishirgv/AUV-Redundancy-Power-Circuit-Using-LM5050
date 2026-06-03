@@ -1399,7 +1399,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "smp 1:LM5050-1_mod2"
+		(symbol "smp1:LM5050-1_mod2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3028,164 +3028,6 @@
 		)
 	)
 	(symbol
-		(lib_id "smp 1:LM5050-1_mod2")
-		(at 138.43 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99a7d827-b82a-4695-829b-72dd4e3b2153")
-		(property "Reference" "U4"
-			(at 140.97 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM5050-1_mod2"
-			(at 141.732 118.618 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 147.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf"
-			(at 139.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High side OR-ing FET controller, 5V to 75V operation, TSOT-23-6"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "84cbe677-2030-4317-9eaa-8b1b1caf6e5c")
-		)
-		(pin "1"
-			(uuid "6d2ca334-9b75-4eaf-9f2c-bad1453f24a9")
-		)
-		(pin "6"
-			(uuid "7fa18c27-f692-488b-8a78-e683bc37efe5")
-		)
-		(pin "4"
-			(uuid "77266fd2-fc1b-48ba-a98e-286394e40212")
-		)
-		(pin "2"
-			(uuid "5ade7404-19bd-4a32-871c-97b9b073ad0f")
-		)
-		(pin "3"
-			(uuid "09d409d3-defb-47e6-9b87-5ee4081cdb3a")
-		)
-		(instances
-			(project "summer project 1.1"
-				(path "/19e44473-05a8-487a-9fcb-12427ac5e96b"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "smp 1:LM5050-1_mod2")
-		(at 137.16 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a232b9cc-8eef-4ed9-a2de-90bdf3f6f510")
-		(property "Reference" "U3"
-			(at 139.7 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM5050-1_mod2"
-			(at 140.462 76.708 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 146.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf"
-			(at 138.43 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High side OR-ing FET controller, 5V to 75V operation, TSOT-23-6"
-			(at 137.16 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "db168814-2750-4939-8717-87406a568d4e")
-		)
-		(pin "1"
-			(uuid "22f9ee09-d06e-4563-8883-b1b5f42c205e")
-		)
-		(pin "6"
-			(uuid "1ddb5bcc-7a72-4ded-9362-202dd5654625")
-		)
-		(pin "4"
-			(uuid "2c740369-5a52-4a33-913b-7a1967220c00")
-		)
-		(pin "2"
-			(uuid "efdb60cb-41d5-4617-8fdc-3582dcbcb910")
-		)
-		(pin "3"
-			(uuid "001d628f-1b42-4f1d-8246-47591d8d3394")
-		)
-		(instances
-			(project "summer project 1.1"
-				(path "/19e44473-05a8-487a-9fcb-12427ac5e96b"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 172.72 55.88 180)
 		(unit 1)
@@ -3619,6 +3461,86 @@
 		)
 	)
 	(symbol
+		(lib_id "smp1:LM5050-1_mod2")
+		(at 138.43 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e093ed97-2bb2-439f-a095-556f714b1257")
+		(property "Reference" "U2"
+			(at 156.21 110.1246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM5050-1_mod2"
+			(at 156.21 112.6646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High side OR-ing FET controller, 5V to 75V operation, TSOT-23-6"
+			(at 138.43 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "783bc1b9-f05c-4b6a-b3a9-5e356fdf3871")
+		)
+		(pin "5"
+			(uuid "836ea72d-520d-423a-9b07-72ac488bd70b")
+		)
+		(pin "2"
+			(uuid "56cbb78f-f5f0-469a-8532-557932f8d161")
+		)
+		(pin "1"
+			(uuid "4e53bd19-ddfe-4946-a2aa-0161d5999ce5")
+		)
+		(pin "3"
+			(uuid "3c4892fe-04bd-4c43-a0dd-188cb112f3f5")
+		)
+		(pin "4"
+			(uuid "63d51cb4-0f74-4911-b0f1-f26a46dd5211")
+		)
+		(instances
+			(project "summer project 1.1"
+				(path "/19e44473-05a8-487a-9fcb-12427ac5e96b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 64.77 0)
 		(mirror y)
@@ -3980,6 +3902,86 @@
 			(project "summer project 1.1"
 				(path "/19e44473-05a8-487a-9fcb-12427ac5e96b"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smp1:LM5050-1_mod2")
+		(at 137.16 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdb6c51a-5a07-41f9-a056-7a0f51639234")
+		(property "Reference" "U1"
+			(at 154.94 68.2146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM5050-1_mod2"
+			(at 154.94 70.7546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf"
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High side OR-ing FET controller, 5V to 75V operation, TSOT-23-6"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "54f63f90-29e9-4996-8599-65ea5adc2286")
+		)
+		(pin "5"
+			(uuid "d5777caa-3396-43cc-8e2b-6cea53ad627b")
+		)
+		(pin "2"
+			(uuid "b661bd7e-f84a-40f5-9c6f-83a24aef62f6")
+		)
+		(pin "1"
+			(uuid "144efd30-8fa7-436d-9ff2-be96d27b0245")
+		)
+		(pin "3"
+			(uuid "0e7b839b-41e0-4143-bb61-63423598fa59")
+		)
+		(pin "4"
+			(uuid "c0c6bd62-d03c-4ef0-9a59-00ef75b0d62b")
+		)
+		(instances
+			(project ""
+				(path "/19e44473-05a8-487a-9fcb-12427ac5e96b"
+					(reference "U1")
 					(unit 1)
 				)
 			)

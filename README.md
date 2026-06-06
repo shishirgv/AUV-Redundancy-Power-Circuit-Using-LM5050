@@ -1,20 +1,22 @@
-LM5050 Power Redundancy Circuit - AUV
+LM5050 Dual Input Redundancy Circuit:-
 
--It provides seamless power redundancy between main battery and backup battery. Each battery feeds the output through an LM5050-controlled MOSFET acting as an ideal diode.
+Provide seamless power redundancy between
+main battery and backup battery.
+
+Each battery feeds the output through an
+LM5050-controlled MOSFET acting as an ideal diode.
 
 MOSFET Selection:-
 
--Part: SUM40N10-30
+Part: SUM40N10-30
 
-Reasons:
+Reasons:-
+- Low RDS(on)
+- Suitable VGS(th)[The selected MOSFET has a low gate threshold voltage (typically 1–4 V), allowing reliable enhancement by the LM5050 gate drive circuitry while maintaining a low RDS(on)]
+- High current capability
+- Used in TI reference design
 
-1.Low RDS(on)
-2.Suitable VGS(th) [The selected MOSFET has a low gate threshold voltage (typically 1–4 V), allowing reliable enhancement by the LM5050 gate drive circuitry while maintaining a low RDS(on)]
-3.High current capability
-4.Used in TI reference design
-
-PCB design points:-
-
-1.1 mm power traces
-2.Ground pour on bottom layer
-3.ERC and DRC clean
+PCB Design Points:-
+- 1 mm power traces
+- Ground pour on bottom layer
+- ERC and DRC clean

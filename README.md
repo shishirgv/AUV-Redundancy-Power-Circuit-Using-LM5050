@@ -20,3 +20,8 @@ PCB Design Points:-
 - 1 mm power traces
 - Ground pour on bottom layer
 - ERC and DRC clean
+
+Improvements:- 
+- A zener diode can be added for more safety
+- The routing should follow the 90 degree rule
+- Pin mapping of used mosfet should be verified before confirming schematic
